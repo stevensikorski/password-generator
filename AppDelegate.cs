@@ -18,9 +18,9 @@ namespace PasswordGenerator
 		{
 		}
 
-        public override bool ApplicationShouldTerminateAfterLastWindowClosed(NSApplication sender)
-        {
-            return true;
-        }
+		public override bool ApplicationShouldTerminateAfterLastWindowClosed(NSApplication sender)
+		{
+		    return true;
+		}
     }
 }
